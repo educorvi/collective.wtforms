@@ -8,11 +8,9 @@ from unidecode import unidecode
 
 
 def convertStr(v):
-    if type(v) == str:
-        try:
-            v = unicode(v, 'utf8')
-        except:
-            v = unidecode(v)
+    """
+    String Conversion will not be used anymore
+    """
     return v
 
 
